@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="holiday4all.css">
+    
+    <title>
+        Holidays4All.com
+    </title>
+ 
+</head>
+
+
+<body style="background-color: rgb(183, 242, 242);">
+    
+    
+  <div>
+      
+      <a href="holidays4all.html">
+        <img class = "logo" src="logo/holidays4all-high-resolution-logo.png" >
+    </a>
+    
+
+
+
+
+
+
+    <select id="pagedropdown" class="dropdown"  onchange="openPage() ">
+        <option value="">Select a Page</option>
+        <option value="India.html">India</option>
+        <option value="USA.html">USA</option>
+        <option value="contact.html">France</option>
+      </select>
+      
+      <script>
+        function openPage() {
+          let page = document.getElementById("pagedropdown").value;
+          if (page) {
+            window.location.href = page; 
+          }
+        }
+      </script>
+      
+
+
+
+
+</body>
+
+
+
+</html>
